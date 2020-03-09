@@ -1,57 +1,233 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Felix</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Sacramento|Sriracha&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-      <h1>I'm Felix</h1>
-      <h3 class="webdev">I'm Web developer</h3>
-      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-      <img src="images/mountain.png" alt="mountain-img">
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img class="gambar-muka"src="images/felix.jpg" alt="profile-img">
-        <h2>Hello.</h2>
-        <p>I'm student at Santa Dharma University , and i chose Computer Sience as my major.</p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="gambar-kiri" src="images/computer.png" alt="">
-          <h3>Coding</h3>
-          <p>I'm prety confident in my skill at java, my University uses java as learning language so i already uses it for 3 semester</p>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+
+  <!--Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- GoogleFont -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap" rel="stylesheet">
+  <!-- friconix -->
+  <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+  <!-- CSS Style-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">tindog</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="">contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+          </ul>
+
         </div>
-        <div class="skill-row">
-          <img class="gambar-kanan" src="images/computer.png" alt="">
-          <h3>Design Graphic</h3>
-          <p>Back in my HighSchool i was join OSIS which is HighSchool organization and my job desk is to design a poster,video or edit photo which are related to OSIS</p>
+      </nav>
+
+
+
+
+      <!-- Title -->
+      <div class="row">
+
+
+        <div class="col-lg-6">
+          <strong>
+            <h1 class="title-warna">Meet new and interesting dogs nearby.</h1>
+          </strong>
+          <button class="btn btn-dark btn-lg download-button" type="button"><i class="fi-xnsuxl-apple"></i> Download</button>
+          <button class="btn btn-outline-light btn-lg download-button" type="button"><i class="fi-xtluxl-playstore-solid"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
         </div>
       </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Currently i don't have jobs other than college.</h3>
-        <p>I'd love to join company or starup company which are envolve tech</p>
-        <a class="btn" href="mailto:sffelix22@gmail.com">CONTACT ME</a>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row container-ic">
+      <div class="col-lg-4">
+        <i class="fi-cwsuxl-check fi-4x icon"></i>
+        <div class="margin1rem"></div>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fi-ctsuxl-eye-thin fi-4x icon "></i>
+        <div class="margin1rem"></div>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fi-xnsuxl-heart-solid fi-4x icon "></i>
+        <div class="margin1rem"></div>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
       </div>
     </div>
 
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.instagram.com/felix_sryn/">Instagram</a>
-      <a class="footer-link" href="https://www.linkedin.com/in/stephanus-felix-suryanto-7b9b7a194/">linkedin</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-      <p>© 2020 Stephanus Felix Suryanto.</p>
+
+
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="test-anj" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="test-anj" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
 
 
-  </body>
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <div class="card-deck">
+
+      <div class="pricing-colom col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-outline-dark btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-colom col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-dark btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-colom col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-dark btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="text-akhir">Find the True Love of Your Dog's Life Today.</h3>
+    <button class="btn btn-dark btn-lg download-button" type="button"><i class="fi-xnsuxl-apple"></i> Download</button>
+    <button class="btn btn-outline-light btn-lg download-button" type="button"><i class="fi-xtluxl-playstore-solid"></i> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="fi-xnsuxl-twitter ic"></i><i class="fi-xnsuxl-facebook ic"></i><i class="fi-xnsuxl-instagram ic"></i><i class="fi-xwsuxl-envelope-solid ic"></i>
+    <p class="text-ak">© Copyright 2018 TinDog</p>
+
+  </footer>
+
+
+</body>
+
 </html>
