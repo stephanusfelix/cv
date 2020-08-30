@@ -1,0 +1,266 @@
+/*animation */
+
+
+/* MainComponent */
+body{
+    margin:0;
+    
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+/*utility*/
+
+.hidden{
+    display: none;
+}
+
+/*class*/
+.Section{
+}
+/*Home*/
+.Home{
+    width: 100%;
+}
+.HomePanelLeft{
+    background-color:#07031a;
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+}
+.HomePanelLeftTop{
+    height: 50%;
+}
+.HomeSpace{
+    height: 10em;
+}
+.HomeHi{
+    font-size:500%;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.HomeHiPanel{
+    width: 8em;
+    height: 8em;
+    color:#fbd46d;
+    background-color: #f4f6ff;
+    display: table;
+    text-align: center;
+}
+.HomeText{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #f4f6ff;
+}
+.HomeHightlight1{
+    background-color: #fbd46d;
+    color:#07031a;
+}
+.HomePanelLeftBottom{
+    height: 50%;
+    text-align: center;
+}
+.HomePanelRight{
+    display: inline-block;
+    float:right;
+    overflow: hidden;
+    width: 50%;
+    height:100vh;
+}
+.HomeImage{
+    width: 100%;
+}
+/*Education */
+.About{
+    width: 100%;
+    height: 100vh;
+    background-color:#f4f6ff;
+    overflow:hidden;
+    position: relative;
+}
+.AboutLeft{
+    display: inline-block;
+    width: 75%;
+    height: 100vh;
+    position: relative;
+}
+.AboutBox{
+    width: 80%;
+    height: 80%;
+    background-color:#07031a;
+    position: absolute;
+    top:10%;
+    left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+
+}
+.Circle{
+    height: 0.75em;
+    width: 0.75em;
+    background-color: #07031a;
+    border:solid;
+    border-color:#f4f6ff ;
+    border-radius: 80%;
+    z-index: 2;
+}
+.Line{
+    width: 0.25em;
+    background-color: #f4f6ff;
+    z-index: 1;
+}
+.line1{
+    height: 11em;
+    position: absolute;
+    left:5.87%;
+    top:28%;
+}
+.line2{
+    height: 10em;
+    position: absolute;
+    left:3%;
+    top:31%;
+}
+.circle1{
+    position: absolute;
+    left: 5%;
+    top:25.5%;
+}
+.circle2{
+    position: absolute;
+    left: 5%;
+    top:60%;
+}
+.circle3{
+    position: absolute;
+    left:2%;
+    top:30%;
+}
+.circle4{
+    position: absolute;
+    left: 2%;
+    top:60%;
+}
+.circle5{
+    position: absolute;
+    left: 50%;
+    top:30%;
+}
+.SKTB{
+    font-size:50px;
+    color: #f4f6ff;
+    margin:0.3em;
+}
+.StudentCouncil{
+    width: 52%;
+    margin-left: 10%;
+}
+.StudentCouncilImg{
+    width: 30%;
+    height: 60%;
+    background-image:url('../image/StudentCouncil.jpeg');
+    position: absolute;
+    background-size: cover;
+    background-position-y: 20%;
+    top:20%;
+    left:22.5%;
+    z-index:5;
+    display: none;
+}
+.SionDancerImg{
+    width: 35%;
+    height: 65%;
+    background-image:url('../image/SionDancer.jpg');
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top:30%;
+    left:20%;
+    z-index:5;
+    display: none;
+}
+
+.SionDancer{
+    width: 50%;
+    margin-left: 10%;
+}
+
+.AboutTitle{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #f4f6ff;
+    font-size:20px;
+    margin-top:2em;
+}
+.AboutDesc{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #f4f6ff;
+    font-size:15px;
+}
+.AfterHighschool{
+    font-size:50px;
+    color: #f4f6ff;
+    margin-left: 3.5em;
+    margin-bottom:0px;
+}
+.AboutSubTitle{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #f4f6ff;
+    font-size:18px;
+    margin-left: 10%;
+    margin-top:2em;
+}
+.AboutDesc2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #f4f6ff;
+    font-size:15px;
+    margin-left: 10%;
+}
+.AfterHighschoolLeft{
+    width: 50%;
+    display: inline-block;
+}
+.AfterHighschoolRight{
+    width: 50%;
+    display: inline-block;
+    float:right;
+}
+
+.AboutRight{
+    display: inline-block;
+    float:right;
+    overflow:hidden;
+    width: 25%;
+    height: 100vh;
+    background-color: #fbd46d;
+}
+.AboutText{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size:100px;
+    color: #f4f6ff;
+    width: 5em;
+}
+.AboutText2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size:20px;
+    color: #f4f6ff;
+    margin:1em;
+    padding:3px;
+    position: relative;
+    background-color:#fbd46d;
+    box-shadow: 0 4px 8px 0 #fbd46, 0 6px 20px 0 #fbd46;
+    transition: background-color 1s,box-shadow 1s;
+}
+.AboutText2:hover{
+    background-color:#07031a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.Y2015{
+    top:-150px;
+}
